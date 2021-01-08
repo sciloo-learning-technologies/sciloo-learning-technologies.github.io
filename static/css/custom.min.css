@@ -1,0 +1,16 @@
+img {
+  max-width: 100%;
+  border-radius: 15px 15px;
+}
+.about {
+  background-color: #2c0242;
+  padding: 30px;
+  vertical-align: middle;
+  margin-top: 20px;
+  display: inline-block;
+}
+h2, p, img {
+  display: inline-block;
+  margin: 0px;
+  vertical-align: middle;
+}
