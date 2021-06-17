@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>domain driven design &#8211; Sciloo Learning Technologies</title>
+	<atom:link href="http://localhost/tag/domain-driven-design/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost:8180</link>
+	<description>simplifying innovation</description>
+	<lastBuildDate>Sun, 17 Feb 2019 08:20:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Microservices Part 1 &#8211; Basic Concepts</title>
+		<link>http://localhost:8180/2019/02/17/microservices-part-1-basic-concepts/</link>
+					<comments>http://localhost:8180/2019/02/17/microservices-part-1-basic-concepts/#respond</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Sun, 17 Feb 2019 08:20:22 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[domain driven design]]></category>
+		<category><![CDATA[microservices]]></category>
+		<category><![CDATA[Software Architecture]]></category>
+		<guid isPermaLink="false">https://sciloo.com/?p=1115</guid>
+
+					<description><![CDATA[A microservice is an architectural style with small services which are isolated, loosely-coupled works on a single concern. Own their own data Lightweight communication usually with HTTP Restful API Built around business capabilities/domain, example below DDD (Domain driven design) is the way to go while designig microservices. Independently deployable by automated means Right tech for&#8230; <a class="more-link" href="http://localhost:8180/2019/02/17/microservices-part-1-basic-concepts/">Continue reading <span class="screen-reader-text">Microservices Part 1 &#8211; Basic Concepts</span></a>]]></description>
+										<content:encoded><![CDATA[
+<h3>A microservice is an architectural style with small services which are</h3>
+
+
+
+<ol><li>isolated, </li><li>loosely-coupled </li><li>works on a single concern.</li><li>Own their own data</li><li>Lightweight communication usually with HTTP Restful API</li><li>Built around business capabilities/domain, example below </li></ol>
+
+
+
+<p> DDD (<g class="gr_ gr_13 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="13" data-gr-id="13">Domain driven</g> design) is the way to go while <g class="gr_ gr_25 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="25" data-gr-id="25">designig</g> microservices.</p>
+
+
+
+<figure class="wp-block-image"><img src="http://lh5.googleusercontent.com/OlYKfFDflU8_Pjv-ppbq6CtTeV8-J7O-a6PKceZJSLQWaVU4x30Kf63oKlwyaxHonk01lwI5dR8yqSSZvHd8py7PPTlhhoQGTtP94oPNIEOzeCHnB8LSxuSZcqG2sm-OCgVmWZw-" alt=""/></figure>
+
+
+
+<ol><li>Independently deployable by automated means</li><li>Right tech for right problem &#8211; each microservice can be implemented on its own tech</li></ol>
+
+
+
+<p>Advantages</p>
+
+
+
+<ol><li>Language independent as conform to HTTP Restful</li><li>Individual team for each microservice</li><li>Scalable</li><li>Fault tolerance</li><li>Container friendly (docker, kubernete)</li><li>Fast iteration for adding code</li><li>small development teams, </li><li>shorter development cycles</li><li>flexibility in language selection</li><li>enhanced service scalability</li></ol>
+
+
+
+<p>Disadvantages</p>
+
+
+
+<ol><li>Complex interactions &#8211; System + Operational</li><li>Overhead of communication across databases and servers</li><li>Resource and nw overhead</li><li>Complex authentication and authorization scheme in the Microservices </li></ol>
+
+
+
+<p>Design Considerations</p>
+
+
+
+<ul><li><strong>Cross-cutting</strong>: microservices need not deal with details regarding problems outside their specific scope.</li><li><strong>Data sharing</strong> is hard. Microservices tend to favor per-service or per-group databases that can be updated directly. </li><li><strong>Availability</strong>: Microservices, by virtue of being isolated and independent, need to be monitored to detect failures.</li><li><strong>Evolution</strong>: Microservices tend to evolve fast. Old versions are usually available as long as there are clients who need to consume data from them. Newer versions are exposed in an application-specific way. For instance, with an HTTP/REST API, the version of the microservice may be part of a custom header, or be embedded in the returned data. Account for this.</li><li><strong>Automated deployment</strong>: The whole reason that microservices are so convenient nowadays is that it is so easy to deploy a new service from a completely clean environment. </li><li><strong>Interdependencies</strong>: Keep them to a minimum. </li><li><strong>Transport and data format</strong>: Microservices are fit for any transport and data format; however, they are usually exposed publicly through a RESTful API over HTTP. Any data format fit for your information works. HTTP + JSON is very popular these days, but there is nothing stopping you from using protocol-buffers over AMQP, for instance.</li></ul>
+
+
+
+<p>microservices are developed almost in isolation. <strong>Cross-cutting concerns </strong>are dealt with by <strong>upper layers</strong> in the software stack
+
+</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2019/02/17/microservices-part-1-basic-concepts/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

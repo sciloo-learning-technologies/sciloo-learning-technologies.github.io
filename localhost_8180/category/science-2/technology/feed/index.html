@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>technology &#8211; Sciloo Learning Technologies</title>
+	<atom:link href="http://localhost/category/science-2/technology/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost:8180</link>
+	<description>simplifying innovation</description>
+	<lastBuildDate>Sun, 17 Feb 2019 08:34:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Microservices Part 1 &#8211; Basic Concepts</title>
+		<link>http://localhost:8180/2019/02/17/microservices-part-1-basic-concepts/</link>
+					<comments>http://localhost:8180/2019/02/17/microservices-part-1-basic-concepts/#respond</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Sun, 17 Feb 2019 08:20:22 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[domain driven design]]></category>
+		<category><![CDATA[microservices]]></category>
+		<category><![CDATA[Software Architecture]]></category>
+		<guid isPermaLink="false">https://sciloo.com/?p=1115</guid>
+
+					<description><![CDATA[A microservice is an architectural style with small services which are isolated, loosely-coupled works on a single concern. Own their own data Lightweight communication usually with HTTP Restful API Built around business capabilities/domain, example below DDD (Domain driven design) is the way to go while designig microservices. Independently deployable by automated means Right tech for&#8230; <a class="more-link" href="http://localhost:8180/2019/02/17/microservices-part-1-basic-concepts/">Continue reading <span class="screen-reader-text">Microservices Part 1 &#8211; Basic Concepts</span></a>]]></description>
+										<content:encoded><![CDATA[
+<h3>A microservice is an architectural style with small services which are</h3>
+
+
+
+<ol><li>isolated, </li><li>loosely-coupled </li><li>works on a single concern.</li><li>Own their own data</li><li>Lightweight communication usually with HTTP Restful API</li><li>Built around business capabilities/domain, example below </li></ol>
+
+
+
+<p> DDD (<g class="gr_ gr_13 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="13" data-gr-id="13">Domain driven</g> design) is the way to go while <g class="gr_ gr_25 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="25" data-gr-id="25">designig</g> microservices.</p>
+
+
+
+<figure class="wp-block-image"><img src="http://lh5.googleusercontent.com/OlYKfFDflU8_Pjv-ppbq6CtTeV8-J7O-a6PKceZJSLQWaVU4x30Kf63oKlwyaxHonk01lwI5dR8yqSSZvHd8py7PPTlhhoQGTtP94oPNIEOzeCHnB8LSxuSZcqG2sm-OCgVmWZw-" alt=""/></figure>
+
+
+
+<ol><li>Independently deployable by automated means</li><li>Right tech for right problem &#8211; each microservice can be implemented on its own tech</li></ol>
+
+
+
+<p>Advantages</p>
+
+
+
+<ol><li>Language independent as conform to HTTP Restful</li><li>Individual team for each microservice</li><li>Scalable</li><li>Fault tolerance</li><li>Container friendly (docker, kubernete)</li><li>Fast iteration for adding code</li><li>small development teams, </li><li>shorter development cycles</li><li>flexibility in language selection</li><li>enhanced service scalability</li></ol>
+
+
+
+<p>Disadvantages</p>
+
+
+
+<ol><li>Complex interactions &#8211; System + Operational</li><li>Overhead of communication across databases and servers</li><li>Resource and nw overhead</li><li>Complex authentication and authorization scheme in the Microservices </li></ol>
+
+
+
+<p>Design Considerations</p>
+
+
+
+<ul><li><strong>Cross-cutting</strong>: microservices need not deal with details regarding problems outside their specific scope.</li><li><strong>Data sharing</strong> is hard. Microservices tend to favor per-service or per-group databases that can be updated directly. </li><li><strong>Availability</strong>: Microservices, by virtue of being isolated and independent, need to be monitored to detect failures.</li><li><strong>Evolution</strong>: Microservices tend to evolve fast. Old versions are usually available as long as there are clients who need to consume data from them. Newer versions are exposed in an application-specific way. For instance, with an HTTP/REST API, the version of the microservice may be part of a custom header, or be embedded in the returned data. Account for this.</li><li><strong>Automated deployment</strong>: The whole reason that microservices are so convenient nowadays is that it is so easy to deploy a new service from a completely clean environment. </li><li><strong>Interdependencies</strong>: Keep them to a minimum. </li><li><strong>Transport and data format</strong>: Microservices are fit for any transport and data format; however, they are usually exposed publicly through a RESTful API over HTTP. Any data format fit for your information works. HTTP + JSON is very popular these days, but there is nothing stopping you from using protocol-buffers over AMQP, for instance.</li></ul>
+
+
+
+<p>microservices are developed almost in isolation. <strong>Cross-cutting concerns </strong>are dealt with by <strong>upper layers</strong> in the software stack
+
+</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2019/02/17/microservices-part-1-basic-concepts/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Airbnb Data Science team experience &#8211; Jeff Feng</title>
+		<link>http://localhost:8180/2019/02/15/airbnb-data-science-team-experience-jeff-feng/</link>
+					<comments>http://localhost:8180/2019/02/15/airbnb-data-science-team-experience-jeff-feng/#respond</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Fri, 15 Feb 2019 18:23:39 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[airbnb]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<guid isPermaLink="false">https://sciloo.com/?p=1070</guid>
+
+					<description><![CDATA[Without experimentation, if we release a new feature and see the following graph, we can infer that with the introduction of a new feature the sales have increased.&#160; But if we could have done experiments, we may found that it is not true. In the absence of this new feature, the sales might have increased&#8230; <a class="more-link" href="http://localhost:8180/2019/02/15/airbnb-data-science-team-experience-jeff-feng/">Continue reading <span class="screen-reader-text">Airbnb Data Science team experience &#8211; Jeff Feng</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>Without experimentation, if we release a new feature and see the following graph, we can infer that with the introduction of a new feature the sales have increased.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-6.png" alt="" class="wp-image-1071" width="428" height="245"/></figure>
+
+
+
+<p>But if we could have done experiments, we may found that it is not true. In the absence of this new feature, the sales might have increased drastically, the reason for this can be anything.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-10.png" alt="" class="wp-image-1075" width="411" height="241"/></figure>
+
+
+
+<p>Controlled experiments are building block for decision making&nbsp;</p>
+
+
+
+<p>How useful is this feature&nbsp;</p>
+
+
+
+<p>Is it moving towards my and company goal&nbsp;</p>
+
+
+
+<p>How team is performing&nbsp;</p>
+
+
+
+<p>Characteristics about experimentation at Airbnb – different in different companies&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-8-1024x458.png" alt="" class="wp-image-1073" width="450" height="201"/></figure>
+
+
+
+<p>Data related tools and Infra&nbsp;</p>
+
+
+
+<p>They use tableau and superset extensively&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-9-1024x383.png" alt="" class="wp-image-1074" width="438" height="163"/></figure>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-7.png" alt="" class="wp-image-1072" width="284" height="144"/></figure>
+
+
+
+<p>How to make sense of this data&nbsp;</p>
+
+
+
+<p>            ||&nbsp;</p>
+
+
+
+<p>&nbsp;&nbsp;Apache Superset&nbsp;</p>
+
+
+
+<p>It can analyze billions of rows in no time.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-11-1024x506.png" alt="" class="wp-image-1076" width="414" height="204"/></figure>
+
+
+
+<figure class="wp-block-image"><img src="http://localhost:8180/wp-content/uploads/2019/02/image-12-1024x349.png" alt="" class="wp-image-1077"/></figure>
+
+
+
+<p><strong>Data Portal</strong>&nbsp;</p>
+
+
+
+<p>Airbnb has a data portal for all the data related work different teams/individual have done. They use the similar tech to google page rank,&nbsp;its&nbsp;kind of search engine.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-13-1024x512.png" alt="" class="wp-image-1078" width="568" height="284"/></figure>
+
+
+
+<p>Data Education&nbsp;</p>
+
+
+
+<p>Data is at the core of everything.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-14-1024x531.png" alt="" class="wp-image-1079" width="347" height="179"/></figure>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-15-1024x437.png" alt="" class="wp-image-1080" width="381" height="162"/></figure>
+
+
+
+<p>ML is everywhere in Airbnb.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-16-1024x491.png" alt="" class="wp-image-1081" width="361" height="173"/></figure>
+
+
+
+<p>ML mapped to the every step of the process flow&nbsp;&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-17-1024x549.png" alt="" class="wp-image-1082" width="371" height="198"/></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2019/02/15/airbnb-data-science-team-experience-jeff-feng/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Model-Based Machine Learning</title>
+		<link>http://localhost:8180/2019/02/15/model-based-learning/</link>
+					<comments>http://localhost:8180/2019/02/15/model-based-learning/#respond</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Fri, 15 Feb 2019 18:07:44 +0000</pubDate>
+				<category><![CDATA[research]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[healthcare]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<guid isPermaLink="false">https://sciloo.com/?p=1059</guid>
+
+					<description><![CDATA[ML not equal to data + black box&#160; ML = data + assumptions&#160;&#160; Free Lunch Theorem&#160; As per free lunch theorem, without assumptions we can’t build anything.&#160;We can’t have one generic&#160;algo&#160;that is applicable for all the problems.&#160;&#160; We have&#160;constraints&#160;like&#160;&#160; &#160; assumptions,&#160;&#160; &#160; prior knowledge,&#160;&#160; &#160; domain knowledge&#160; &#160;when dealing with problems and without considering these&#8230; <a class="more-link" href="http://localhost:8180/2019/02/15/model-based-learning/">Continue reading <span class="screen-reader-text">Model-Based Machine Learning</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>ML not equal to data + black box&nbsp;</p>
+
+
+
+<p>ML = data + assumptions&nbsp;&nbsp;</p>
+
+
+
+<p><strong>Free Lunch Theorem</strong>&nbsp;</p>
+
+
+
+<p>As per free lunch theorem, without assumptions we can’t build anything.&nbsp;We can’t have one generic&nbsp;<g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="4" data-gr-id="4">algo</g>&nbsp;that is applicable for all the problems.&nbsp;&nbsp;</p>
+
+
+
+<p>We have&nbsp;<strong>constraints&nbsp;</strong>like&nbsp;&nbsp;</p>
+
+
+
+<p>&nbsp; assumptions,&nbsp;&nbsp;</p>
+
+
+
+<p>&nbsp; prior knowledge,&nbsp;&nbsp;</p>
+
+
+
+<p>&nbsp; domain knowledge&nbsp;</p>
+
+
+
+<p>&nbsp;when dealing with problems and without considering these how we can solve a problem.&nbsp;</p>
+
+
+
+<p><strong>Data + prior knowledge</strong>&nbsp;</p>
+
+
+
+<p>Detection of a person in frame&nbsp;</p>
+
+
+
+<p>In a simple approach, we will need many images with person at different location.&nbsp;</p>
+
+
+
+<p>But with this knowledge, we can develop transformations to shift a person in the image and then train the model on these images instead of acquiring those images.&nbsp;</p>
+
+
+
+<p>We tend to think about Big data that we can develop weak models and can forget the constraints/assumptions.&nbsp;</p>
+
+
+
+<p>There are 2 types of sizes&nbsp;</p>
+
+
+
+<p>&nbsp; 1. computation size&nbsp;</p>
+
+
+
+<p>&nbsp; 2. statistical size&nbsp;</p>
+
+
+
+<div class="wp-block-image"><figure class="alignleft is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image.png" alt="" class="wp-image-1060" width="243" height="198"/></figure></div>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-1.png" alt="" class="wp-image-1061" width="236" height="195"/></figure>
+
+
+
+<p></p>
+
+
+
+<p>Computationally small but statistical big&nbsp;</p>
+
+
+
+<p>Without assumptions, how we can predict a current value for a new voltage value?&nbsp; On the right side, we can take into consideration about V = IR and can be confident that the line is good predictor for future voltage values. This dataset is small in computational size but big in statistical size.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-3.png" alt="" class="wp-image-1063" width="384" height="261"/></figure>
+
+
+
+<p>Statistically small but computationally big&nbsp;</p>
+
+
+
+<p>The above data is computationally big, take a simple example of a <g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" id="5" data-gr-id="5">black</g> and white image of 10X10 pixel, all the combinations can yield combinations that might be more than the total number of atoms in the universe.&nbsp;</p>
+
+
+
+<p>Unless we make assumptions, it is very difficult to do computation with these big set of images. This above images data can be computationally very large but statistically very small.&nbsp;</p>
+
+
+
+<p><strong>Model based ML</strong>&nbsp;</p>
+
+
+
+<p>Instead of getting lost in the sea of algorithms/models/research papers, we should use model-based learning to use data and assumptions to derive ML algorithm.&nbsp;We should work mainly on defining our assumptions about the problem very clearly.&nbsp;&nbsp;</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Machine learning and the learning machine with Dr. Christopher Bishop" width="750" height="422" src="https://www.youtube.com/embed/9W2BcQyT0ZM?start=695&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Translate your assumptions into a model and that is the core of model-based learning. If our assumptions are sound/strong then we get much more information from the same amount of data.&nbsp;</p>
+
+
+
+<p>Can we develop a tool to do it automatically? Can this dream be true?&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-4.png" alt="" class="wp-image-1064" width="288" height="235"/></figure>
+
+
+
+<p><strong>User &amp; Movies</strong>&nbsp;</p>
+
+
+
+<p>Predict the question marks – whether a user like or dislike&nbsp;those movie&nbsp;for which he has not given&nbsp;a&nbsp;answer. 10ks of movies, 10Ms of users.&nbsp;</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-2.png" alt="" class="wp-image-1062" width="433" height="331"/></figure>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" src="http://localhost:8180/wp-content/uploads/2019/02/image-5-1024x507.png" alt="" class="wp-image-1065" width="618" height="306"/></figure>
+
+
+
+<p>Based on my like or dislike, ML is suggesting movies closer to green area that I can like for sure and closer to red area for movies that I may not like.&nbsp;</p>
+
+
+
+<p>It is learning my behavior and suggesting me titles based on the populations&nbsp;similar to&nbsp;me.&nbsp;</p>
+
+
+
+<p>Information (as per information theory by&nbsp;Shanon) is the surprise from data. Just like above movie ML&nbsp;algo&nbsp;suggest me movies closer to green area and I pick then there is a very less surprise in the data and suggestions don’t move big.&nbsp;</p>
+
+
+
+<p>But instead of liking the movie, if I dislike it, it is a big surprise for the&nbsp;algo&nbsp;and movies suggestions move big.&nbsp;</p>
+
+
+
+<p><strong>Quantifying uncertainty</strong>&nbsp;</p>
+
+
+
+<p>Uncertainty is an essential part of machine learning and it is a modern view of ML.&nbsp;<strong>Bayes theorem</strong>&nbsp;is at the core of it.&nbsp;</p>
+
+
+
+<p>BT: P(A/B) = [P(A) * P(B/A)]/P(B)&nbsp;</p>
+
+
+
+<p><strong>Bishop view on Healthcare</strong>&nbsp;</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Machine learning and the learning machine with Dr. Christopher Bishop" width="750" height="422" src="https://www.youtube.com/embed/9W2BcQyT0ZM?start=695&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>It is one of the biggest opportunities but complex also. Personalized healthcare can be a phenomenon suggesting you personalized course of treatment because as an individual each one of us is unique. It is like machine can learn our movies preferences.&nbsp;</p>
+
+
+
+<p>&nbsp;This can happen by analyzing the info from other millions of people.&nbsp;&nbsp;</p>
+
+
+
+<p>&nbsp; Cloud based tech + ML tech + Domain experts (from Hospitals like clinicians, doctors, radiologists, etc.)&nbsp;</p>
+
+
+
+<p><strong>Trust and privacy in the Data</strong>&nbsp;</p>
+
+
+
+<p>Data is encrypted so it is only accessible to those who have keys but It can become vulnerable while being processed. So Microsoft has taken care of processing data in <g class="gr_ gr_7 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" id="7" data-gr-id="7">secure</g> vault kind of infrastructure where data can be <g class="gr_ gr_10 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" id="10" data-gr-id="10">access</g> only to people who have keys. It is secure by hardware and software. </p>
+
+
+
+<p><strong>Factor Graph</strong></p>
+
+
+
+<figure class="wp-block-image"><img src="http://localhost:8180/wp-content/uploads/2019/02/image-18.png" alt="" class="wp-image-1120"/></figure>
+
+
+
+<p>The probability of getting a circular or triangular cookie depends upon which jar we choose. Round circles on the right sides are &#8211; one random variable for Jar, one random variable for Cookie</p>
+
+
+
+<p>These random variables are driven by their respective probability distribution functions (PDFs) denoted as shaded squares.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2019/02/15/model-based-learning/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>free research papers for all &#8211; scihub</title>
+		<link>http://localhost:8180/2018/05/30/free-research-papers-scihub/</link>
+					<comments>http://localhost:8180/2018/05/30/free-research-papers-scihub/#respond</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Tue, 29 May 2018 22:26:42 +0000</pubDate>
+				<category><![CDATA[Education]]></category>
+		<category><![CDATA[research]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[free]]></category>
+		<category><![CDATA[paper]]></category>
+		<guid isPermaLink="false">https://sciloo.com/?p=945</guid>
+
+					<description><![CDATA[It is the first website in the world to provide public access to research papers. Refer to http://sci-hub.tw/ There are plugins for browsers which help you just click when you are on some research paper on IEEE or elsewhere, you can directly view the paper. Please be careful while doing so as it might not&#8230; <a class="more-link" href="http://localhost:8180/2018/05/30/free-research-papers-scihub/">Continue reading <span class="screen-reader-text">free research papers for all &#8211; scihub</span></a>]]></description>
+										<content:encoded><![CDATA[<p>It is the first website in the world to provide public access to research papers. Refer to</p>
+<p>http://sci-hub.tw/</p>
+<p>There are plugins for browsers which help you just click when you are on some research paper on IEEE or elsewhere, you can directly view the paper.</p>
+<p>Please be careful while doing so as it might not be the legal way to use those papers, use at your own risk.</p>
+<p>If you find this site to be blocked, search for some alternate link on google search, you will find it for sure.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2018/05/30/free-research-papers-scihub/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Innovation &#8211; linear/slow or exponential/fast</title>
+		<link>http://localhost:8180/2017/05/17/innovation-linearslow-exponentialfast/</link>
+					<comments>http://localhost:8180/2017/05/17/innovation-linearslow-exponentialfast/#respond</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Wed, 17 May 2017 04:07:13 +0000</pubDate>
+				<category><![CDATA[Career]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[innovation]]></category>
+		<category><![CDATA[startup]]></category>
+		<category><![CDATA[team]]></category>
+		<guid isPermaLink="false">https://www.sciloo.com/?p=665</guid>
+
+					<description><![CDATA[We need to elaborate the problems we are solving more clearly so that their solutions becomes transparent. We should not only be focusing on the technical part but also on validating the ideas and its reach. Henry Ford mass produced internal combustion engine and cars which were available only for few rich people earlier, he created&#8230; <a class="more-link" href="http://localhost:8180/2017/05/17/innovation-linearslow-exponentialfast/">Continue reading <span class="screen-reader-text">Innovation &#8211; linear/slow or exponential/fast</span></a>]]></description>
+										<content:encoded><![CDATA[<p>We need to elaborate the problems we are solving more clearly so that their solutions becomes transparent. We should not only be focusing on the technical part but also on validating the ideas and its reach. Henry Ford mass produced internal combustion engine and cars which were available only for few rich people earlier, he created a new market with significant social impacts.</p>
+<p>You should identify the main stakeholders for your innovative idea or product. You must analyse and evaluate the resources, the process of these companies, as innovation often appears on the border of markets dominated by important actors. You could be partners or disruptions as the case may be. At this point, I demonstrated why I think that theories and practices you can do are not only topical but also in a rich industrial and academical past.</p>
+<p>Innovation isn&#8217;t a single big shot but rather a process of finding possibilities, contextualising them in domain/market, developing them for markets, and deploying them while thinking about concepts, markets or business model. So, it is not linear or sequential but the mix of parallel items &#8211; working on the ideas, evaluating in the market, building relationship at the same time. The innovation process is not just developing the idea or innovative design but applying them as the application on markets. To convert your idea into an opportunity, we need to execute both innovative concepts and applications on markets in time.</p>
+<p>We should thrive to create our immediate environment and market rather than anticipate the evolution of the world, just like Telsa/Elon Musk did and PayPal did.</p>
+<p>We should find the answers to the following questions as early as possible.</p>
+<p>1. What are the relevant markets to test and deploy an innovation?</p>
+<p>2. What is your team for this challenging voyage?</p>
+<h5>Target long term, plan midterm, execute short term</h5>
+<p>Plan speed and value indicators of the idea/product because, as you innovate, you target a long-term ambition while living in a short-term and planning in a medium term. You must plan for the time needed for the first demonstration of the innovation, the first marketing, applying to the other markets and taking it around the world.</p>
+<h5>Value</h5>
+<p>Along the innovation process, the value for the users and ourselves should be our top most priority. Value is often created with an innovative concept because it is innovation and can result in direct sales. Innovation can also increase the value of other products, add value to brands. We must balance and choose between low and high-value parts of the product/offering, this is the everyday story for all the innovators.</p>
+<p>Innovation is is much more than a simple opportunity identification and involve the following key points.</p>
+<h5>Type of innovation</h5>
+<p>What is new in technology, architecture, and business model?</p>
+<h5>Performance</h5>
+<p>What are the factors to evaluate the innovation value that are characteristics of our idea/product?</p>
+<h5>Process</h5>
+<p>Who works on what for the innovation and how to build a strong relationship among people of your startup and its stakeholders (inside and outside both) &#8211; users, investors, industry research, academic research, etc.</p>
+<p>A company used to spend huge money on advertisements, promotion and events but with the evolution of social media platforms like Linkedin, Facebook, Twitter, etc., this can be done by the users, so prepare a strategy to utilise these medias.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2017/05/17/innovation-linearslow-exponentialfast/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Starting a technical startup &#8211; evaluating the idea/opportunity</title>
+		<link>http://localhost:8180/2017/05/17/starting-a-technical-startup/</link>
+					<comments>http://localhost:8180/2017/05/17/starting-a-technical-startup/#respond</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Tue, 16 May 2017 20:25:12 +0000</pubDate>
+				<category><![CDATA[Career]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[business]]></category>
+		<category><![CDATA[economics]]></category>
+		<category><![CDATA[startup]]></category>
+		<guid isPermaLink="false">https://www.sciloo.com/?p=670</guid>
+
+					<description><![CDATA[We will see what kind of problems/misconceptions you can face in a tech startup. People get often confused between industry and market. There is a laser industry.However, there is no laser market. There is a welding market, a cutting market etc where lasers are used. Let&#8217;s discuss other important factors such as Market, Consumers and Offerings.&#8230; <a class="more-link" href="http://localhost:8180/2017/05/17/starting-a-technical-startup/">Continue reading <span class="screen-reader-text">Starting a technical startup &#8211; evaluating the idea/opportunity</span></a>]]></description>
+										<content:encoded><![CDATA[<p>We will see what kind of problems/misconceptions you can face in a tech startup. People get often confused between industry and market. There is a laser industry.However, there is no laser market. There is a welding market, a cutting market etc where lasers are used.</p>
+<p>Let&#8217;s discuss other important factors such as Market, Consumers and Offerings.</p>
+<h5>Market</h5>
+<p>As per economics, a market is a place where the price keeps supply and demand in check and balance. A market is a place where a certain amount of uses, functions, even desires exist which can be satisfied by the offerings. For example, the desire for clean hair is related to the hygienic but the desire to look beautiful which probably requires shampoo is not straightforward and easy to relate A shampoo which only accomplishes the first idea (to clean hair) doesn&#8217;t have a great value and is not expensive and can be prepared by a simple chemical formulation. A shampoo that can make you beautiful is not simple to make and can create a monopoly over the market.</p>
+<h5>Users</h5>
+<p>Who can afford the desire to look beautiful? Here comes the question of the use, the desire, and the user segmentation. We start from our invention, industry and then we transform it into use and desire. We then try to see the segmentation of the user group and have to think who can replace you (your product&#8217;s substitutions) or give you a competition.</p>
+<p>A substitute may not do the same as your product but it can replace it. Let&#8217;s understand with an example, the first substitute to a shampoo is not a shampoo but the action of not doing anything &#8211; don&#8217;t wash my hair. `</p>
+<p>Value is felt by the user so look at the value from the user point of view and don&#8217;t assume it yourself that the user will find the top value in your offerings.</p>
+<p>If you are a startup company with an unparallel invention, such as a software, understanding the value is not a problem, it is your existence in coming years which the clients worry about that you will be gone out of business and their work will be held in the middle. Clients will prefer a low profile tech company which is less efficient but more long lasting. Look at the possible risks for your users and try to convince them.</p>
+<h5>Offerings</h5>
+<p>Products and offerings can be offered in either of the following dimensions.</p>
+<h6>1. Position for innovation</h6>
+<h6>2. Position for imitation</h6>
+<h6>3. Position for adaptation</h6>
+<h6>4. Reposition yourself again</h6>
+<p>You need not follow a single direction out of the above list but it can change with time. Position your business with the utmost car, make it either low-end or high-end, don&#8217;t get confused with multiple directions. Get an advantage in one of the following dimensions but the pioneering spirit is a must to become the market leader and big success otherwise you will have to satisfy yourself being a follower.</p>
+<h6>Technical edge</h6>
+<p>Technological edge is not just a patent, it is also having experience and execution expertise. Without technical advantage, it is very difficult to become a pioneer in the market or industry.</p>
+<h6>Scarce asset</h6>
+<p>Physical assets, for example, if I have ~80% of the world&#8217;s phosphate sites, I am the leader in phosphate whatever happens.</p>
+<h6>User behaviour &#8211; love for the brand</h6>
+<p>Bring a differentiation to the users, it can be geographical or it can be in perception. You have to convince the users through perception may be in performance, look and feel, or savings etc.</p>
+<p>And finally, to look credible, you need three rules given below.</p>
+<p>Be comprehensible, it must be clear and significant for the buyer &#8211; either fewer risks or more value, or the right time.</p>
+<p>It must have the possibility to gain value from the company on its value market, so check how the user value your product and company.</p>
+<p>Safe from competition &#8211; it must defend against competition so that it brings something difficult to imitate and can create monopoly just like google and tesla.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2017/05/17/starting-a-technical-startup/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Still spending hundred dollars or thousands rupees on SSL &#8211; Get it free now on letsencrypt.org</title>
+		<link>http://localhost:8180/2017/03/14/still-spending-hundred-dollars-thousands-rupees-ssl-get-free-now-letsencrypt-org/</link>
+					<comments>http://localhost:8180/2017/03/14/still-spending-hundred-dollars-thousands-rupees-ssl-get-free-now-letsencrypt-org/#respond</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Mon, 13 Mar 2017 20:04:46 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[SSL]]></category>
+		<guid isPermaLink="false">https://sciloo.com/?p=444</guid>
+
+					<description><![CDATA[Companies always thrive to satisfy their customers and it becomes more important in the online business where huge numbers of online frauds are being reported daily. These can range starting from the data theft to the money theft to hacking the complete websites. Online experience should be safe for our users and SSL encryption is&#8230; <a class="more-link" href="http://localhost:8180/2017/03/14/still-spending-hundred-dollars-thousands-rupees-ssl-get-free-now-letsencrypt-org/">Continue reading <span class="screen-reader-text">Still spending hundred dollars or thousands rupees on SSL &#8211; Get it free now on letsencrypt.org</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Companies always thrive to satisfy their customers and it becomes more important in the online business where huge numbers of online frauds are being reported daily. These can range starting from the data theft to the money theft to hacking the complete websites.</p>
+<p>Online experience should be safe for our users and SSL encryption is one major step towards this goal. It gives assurance to your customers that their data is safe from hackers and eavesdroppers.</p>
+<p>But if you see, setting up SSL is a costly affair. People are spending 100s $ and 1000s ₹ on SSL certificates and setup cost. See the screenshot below for one such SSL certificate pricing for the Indian market. It becomes more costly if you need separate SSL certificates for each of your subdomains.</p>
+<p><img loading="lazy" class="alignnone wp-image-445 size-large" src="http://localhost:8180/wp-content/uploads/2017/03/sslratesgodaddy-1024x516.png" alt="" width="800" height="403" /></p>
+<p>People have the basic notion in their mind that setting up SSL for their website is a tedious task and it belongs to experts. But letsencrypt.org has changed this perception by providing the SSL for the free and available provision of an easy setup either through the <a href="http://github.com/certbot/certbot">command line </a>or plugins (example <a href="http://wordpress.org/plugins/wp-encrypt/">wp-encrypt</a> for WordPress). You can have free SSL certificates for all your subdomains absolutely free.</p>
+<p>There are plentiful resources on using the command line.</p>
+<p>please be an explorer and join the dots you find on the way to make a clear picture. This is the best way to learn.</p>
+<p>Setting up the SSL on a web server requires certain technicalities such as modifying the vhosts file to add redirection code for HTTP to HTTPS. Then adding the paths to the certificates downloaded from letsencrypt.org.  The web server should also be listening on 443 port to make SSL work. wp-encrypt plugin can do most of the work itself such as downloading certificates to the local path and then the user has to follow the steps above.</p>
+<p>As of now, this certificate expires every 90 days after which you have to renew it &#8211; either manually from the command line (automate it using cron job, etc.) or automatically using the plugin.</p>
+<p>Search engines worldwide especially <a href="http://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html">google have started giving more importance to the links with https</a> (having SSL layer) protocol, it becomes necessary to switch to SSL, the sooner the better.</p>
+<p>One interesting thing about these certificates is they are accepted in all the browser and gets A rating on ssl<a href="http://www.ssllabs.com/ssltest/"> test benchmarks</a>. Check the sample report below. Please share your thoughts on the topic in the comment section.<img loading="lazy" class="alignnone wp-image-447" src="http://localhost:8180/wp-content/uploads/2017/03/ssltest.png" alt="" width="800" height="290" /></p>
+<p>See the <a href="http://letsencrypt.org/stats/">growth </a>of certificates issued by letsencrypt.org over the past few years below. It is growing ~5 M new certificates per month and ~1 M new domains per month.</p>
+<p><img loading="lazy" class="alignnone wp-image-448" src="http://localhost:8180/wp-content/uploads/2017/03/growth.png" alt="" width="800" height="383" /></p>
+<p>[1] help &#8211; http://letsencrypt.org/docs/</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2017/03/14/still-spending-hundred-dollars-thousands-rupees-ssl-get-free-now-letsencrypt-org/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Book review &#8211; Zero to One by Peter Thiel. Next google?</title>
+		<link>http://localhost:8180/2017/01/15/book-review-zero-to-one-by-peter-thiel-next-google/</link>
+					<comments>http://localhost:8180/2017/01/15/book-review-zero-to-one-by-peter-thiel-next-google/#comments</comments>
+		
+		<dc:creator><![CDATA[admin@sciloo.com]]></dc:creator>
+		<pubDate>Sun, 15 Jan 2017 08:45:53 +0000</pubDate>
+				<category><![CDATA[Education]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[elon musk]]></category>
+		<category><![CDATA[peter thiel]]></category>
+		<guid isPermaLink="false">http://www.sciloo.com/?p=265</guid>
+
+					<description><![CDATA[Wondering, what it takes to be the next google or the next big thing. I have few secrets to share with you so sit tight and read this post. How many of you knew Peter Thiel before reading this post? It&#8217;s fine if you don&#8217;t know, we don&#8217;t know many things in the world. I&#8230; <a class="more-link" href="http://localhost:8180/2017/01/15/book-review-zero-to-one-by-peter-thiel-next-google/">Continue reading <span class="screen-reader-text">Book review &#8211; Zero to One by Peter Thiel. Next google?</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Wondering, what it takes to be the next google or the next big thing. I have few secrets to share with you so sit tight and read this post. How many of you knew Peter Thiel before reading this post? It&#8217;s fine if you don&#8217;t know, we don&#8217;t know many things in the world. I will tell you who is Peter and what advice he has for budding startups and new age entrepreneurs.</p>
+<h4>PayPal Mafia</h4>
+<p>Peter is part of PayPal mafia. Yes mafia, because the people in this group started their own successful multi-billion dollar startups like Uber, SpaceX, Linked, youtube, etc. Check them below, specially Thiel and Elon Musk. I will write about Elon Musk in due time. He along with Elon Musk sold their company PayPal to eBay for ~1.5 billion dollars.</p>
+<p><img loading="lazy" class="alignleft wp-image-270" src="http://www.localhost:8180/wp-content/uploads/2017/01/schermafbeelding-2016-03-15-om-20-09-26.png" alt="paypal mafia" width="500" height="432" />Peter also runs a startup program (Thiel fellowship) 20 under 20 [1] for startups with innovative ideas. This is good enough to increase your appetite for what is inside the book, let&#8217;s march ahead.</p>
+<h4>Book Review</h4>
+<p>In this book, Peter shares his experiences, experiments, and progress of industry from 2000s bubble (how it bloated and blasted) till recent times. His most important advice come to the importance of innovation for the startups or any business. Without innovation or new ideas, businesses are locked in competition and survival which doesn&#8217;t bring quick and positive change to the world. These businesses worry about their daily margin and put their maximum efforts on their earnings.</p>
+<h4>Monopoly and Innovation</h4>
+<p>Rather than relying solely on competition, companies should focus on new ideas to create monopoly just like google did. Google has captured the market even though it denies this argument and presents itself as a company in fierce competition. Google states that it has ~3% market share of ads business and less than 1% of the technology market. This argument helps it avoid strict scrutiny of competition laws. You will not believe, it captures more than 70% of the search engine market.</p>
+<p>Being a monopoly is not bad otherwise, google would not have become what it is today &#8211; innovating in every corner of open problems and technologies, be it AI, consumer market (phones, chrome devices, android), and cloud, etc.</p>
+<h4>Monopoly versus Competition</h4>
+<p>Monopoly gives you time to focus on the things that businesses tangled in competition can&#8217;t achieve. These things can be employee benefits like free food, free dental cover, gym, flexible work, etc. These can also be working on new projects like driverless cars, project moon, etc. Thiel points out that competitive businesses tend to squeeze every efficiency out of everything. He mentions it is the reason you see grandma or grandpa working at the reception of many restaurants.</p>
+<p>Monopoly drives new progress, see when Microsoft came in the market, it pushed IBM from the OS market and when Apple came it pushed Microsoft dominance down. Similarly, when Google came, it pushed Yahoo and Microsoft from their dominant stage of the tech and search business.</p>
+<h4>Conclusion</h4>
+<p>This book gives powerful insights on how new startups should think and drive their strategy in doing something that is 10x better or totally new idea. From my experiences, it is by far one of the best books on startups.</p>
+<p>Innovation is the key to enjoying the fruits and using those fruits to further drive innovation with wide social impact and change.</p>
+<p>[1] <a href="http://thielfellowship.org/">http://thielfellowship.org/</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost:8180/2017/01/15/book-review-zero-to-one-by-peter-thiel-next-google/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
