@@ -22,15 +22,8 @@ header_pages:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - update_boostrap.sh
+#NA
 
-show_excerpts: true
-relative_links:
-  enabled: true
-  collections: true
 include:
   - 2017-01-14-dont-worry-couldnt-work-nasa-funded-research-made-public-now.md
   - 2017-01-15-book-review-zero-to-one-by-peter-thiel-next-google.md
@@ -85,4 +78,4 @@ include:
   - 2019-02-23-innovative-thinking.md
   - 2019-03-05-observation-research-and-study.md
   - 2019-03-31-experiment-generation-of-electricity-from-wind.md
-theme: jekyll-theme-cayman
+show_excerpts: true
