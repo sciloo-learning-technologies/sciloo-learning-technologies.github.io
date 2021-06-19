@@ -17,19 +17,23 @@ tags:
   - General
   - Advice
 ---
+<p>
 <span style="font-weight: 400;">
 When we buy a product, mostly we first focus on
-	use
+	use, 
 	then price
 	then brand
 	mostly forget safety
+</span>
+</p>
+<span style="font-weight: 400;">
 	
-	People focus mostly on the price and use.
-	
-	You get a product that may work
-	but will it work as desired over a long period of time safely.
-	
-	if you have focussed on money not the quality then the product can be risky and the money you used to buy it can become wasted.
+People focus mostly on the price and use.
+
+You get a product that may work
+but will it work as desired over a long period of time safely.
+
+if you have focussed on money not the quality then the product can be risky and the money you used to buy it can become wasted.
 	
 You should have focussed about the use, safety, brand and price.
 why brand is more imp than price
