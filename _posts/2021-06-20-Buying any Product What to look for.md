@@ -56,9 +56,6 @@ I give you a example
 		same for a mixer grinder will you buy a philips one or a local one.
 			I recommend philips because they are leaders in the field and do good amount of research on each product they make.
 					
-</span>
-
-<span style="font-weight: 400;">
 I request you to provide your experiences in buying a branded or unbranded product.
 		
 I don't recommed you to buy new products as you should save money, invest money for your financial independence.
