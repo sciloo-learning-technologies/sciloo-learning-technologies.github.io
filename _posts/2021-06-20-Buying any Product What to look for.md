@@ -30,6 +30,10 @@ When we buy a product, mostly we first focus on
 	
 People focus mostly on the price and use.
 
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=3xzh6s-a8F8&ab_channel=Sciloo-simplifyinginnovation&loop=1">
+</iframe>
+
 You get a product that may work
 but will it work as desired over a long period of time safely.
 
