@@ -1,11 +1,11 @@
 ---
 id: 603
 title: 'What to look for when buying any Product'
-date: 2019-03-31T23:50:15+05:30
+date: 2021-06-20T23:50:15+05:30
 author: admin@sciloo.com
 layout: post
-guid: https://sciloo.com/?p=603
-permalink: /2019/03/31/experiment-generation-of-electricity-from-wind/
+guid: 
+permalink: 
 colormag_page_layout:
   - default_layout
 xyz_smap:
