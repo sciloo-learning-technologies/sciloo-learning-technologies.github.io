@@ -24,21 +24,21 @@ tags:
 ---
 Learning can be divided into 4 parts and greatly depends on the learner&#8217;s purpose.
 
-  1. ##### **Learning to know**
+  1. ##### Learning to know
     
-    Reading, enquiry, etc.</li> 
+    Reading, enquiry, etc. 
     
-      * ##### **Learning to do**
+      * ##### Learning to do
         
-        Building a model, tool, etc.</li> 
+        Building a model, tool, etc.
         
-          * ##### **Learning to live in society**
+          * ##### Learning to live in society
             
-            Studying the life and behaviour of life and society to live</li> 
+            Studying the life and behaviour of life and society to live 
             
-              * ##### **Learning to be self-aware**
+              * ##### Learning to be self-aware
                 
-                Awareness of our mind, body, etc. to live a happy and healthy life</li> </ol> 
+                Awareness of our mind, body, etc. to live a happy and healthy life
                 
                 Being scared or more disciplined may hinder the learning process and critical thinking for us and especially kids as they are learning the world around them. Kids should be provided with a comfortable and approachable environment where they should be free to use diverse methods for thinking and collaborating.
                 
