@@ -22,21 +22,22 @@ tags:
   - Learning
   - motivation
 ---
+
 Learning can be divided into 4 parts and greatly depends on the learner&#8217;s purpose.
 
   1. ##### Learning to know
     
     Reading, enquiry, etc. 
     
-      * ##### Learning to do
+      ##### Learning to do
         
         Building a model, tool, etc.
         
-          * ##### Learning to live in society
+          ##### Learning to live in society
             
             Studying the life and behaviour of life and society to live 
             
-              * ##### Learning to be self-aware
+              ##### Learning to be self-aware
                 
                 Awareness of our mind, body, etc. to live a happy and healthy life
                 
@@ -45,8 +46,6 @@ Learning can be divided into 4 parts and greatly depends on the learner&#8217;s 
                 #### Traditional classroom
                 
                 Traditionally classroom teaching or learning is more focussed on maintaining silence where kids are told not to speak and interact loudly to each other. This environment hampers their brain development in the long run. Kids are even scolded and given punishment for speaking differently than teachers. You would remember the scene (linked below) from PK movie that signifies that this even prevails in universities.
-                
-                
                 
                 Traditional classrooms or even today&#8217;s classrooms have teachers to [students ratio ~1:30 or more](http://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS) and this means personalised learning is not inherently possible as a teacher have too many students to reach and teach. This result in a coercive method (mostly one way from teacher to students) which is harmful to learning.
                 
