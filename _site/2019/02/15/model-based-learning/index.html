@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+ <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Sciloo Learning Technologies" /><script src="/assets/javascript/bootstrap/jquery.min.js"></script>
+  <script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+  <script data-ad-client="" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+
+    <div class="body-background"
+      style="background-image: url(/assets/img/background.jpg);">
+    </div><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">    
+    <a href="/"><img src="/assets/img/favicon.ico" height="48px" width="48px"></img></a>
+    <a class="navbar-brand" rel="author" href="/">Sciloo Learning Technologies</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://amzn.to/3ntpUwF">Buy Our Products@Amazon</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/channel/UCLNDsSlbhMEkCM8fMdW7-eQ">Youtube</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.quora.com/profile/Sciloo-Learning-Technologies">Quora</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="py-5">
+      <div class="container page-content">
+          <article class="article">
+
+  <header>
+    <h1>Model-Based Machine Learning</h1>
+    <p class="text-muted">
+      <time datetime="2019-02-15T23:37:44+05:30">Feb 15, 2019
+      </time>• admin@sciloo.com</p>
+  </header>
+
+  <section>
+    <p>ML not equal to data + black box </p>
+
+<p>ML = data + assumptions  </p>
+
+<p><strong>Free Lunch Theorem</strong> </p>
+
+<p>As per free lunch theorem, without assumptions we can’t build anything. We can’t have one generic <g class="gr_ gr\_4 gr-alert gr\_spell gr\_inline\_cards gr\_run\_anim ContextualSpelling ins-del multiReplace" id="4" data-gr-id="4">algo</g> that is applicable for all the problems.  </p>
+
+<p>We have <strong>constraints </strong>like  </p>
+
+<p>  assumptions,  </p>
+
+<p>  prior knowledge,  </p>
+
+<p>  domain knowledge </p>
+
+<p> when dealing with problems and without considering these how we can solve a problem. </p>
+
+<p><strong>Data + prior knowledge</strong> </p>
+
+<p>Detection of a person in frame </p>
+
+<p>In a simple approach, we will need many images with person at different location. </p>
+
+<p>But with this knowledge, we can develop transformations to shift a person in the image and then train the model on these images instead of acquiring those images. </p>
+
+<p>We tend to think about Big data that we can develop weak models and can forget the constraints/assumptions. </p>
+
+<p>There are 2 types of sizes </p>
+
+<p>  1. computation size </p>
+
+<p>  2. statistical size </p>
+
+<div class="wp-block-image">
+  <figure class="alignleft is-resized"><img loading="lazy" src="http://sciloo.com/wp-content/uploads/2019/02/image.png" alt="" class="wp-image-1060" width="243" height="198" /></figure>
+</div>
+<figure class="wp-block-image is-resized">
+
+<img loading="lazy" src="http://sciloo.com/wp-content/uploads/2019/02/image-1.png" alt="" class="wp-image-1061" width="236" height="195" /> </figure>
+
+<p>Computationally small but statistical big </p>
+
+<p>Without assumptions, how we can predict a current value for a new voltage value?  On the right side, we can take into consideration about V = IR and can be confident that the line is good predictor for future voltage values. This dataset is small in computational size but big in statistical size. <figure class="wp-block-image is-resized"></figure></p>
+
+<p><img loading="lazy" src="http://sciloo.com/wp-content/uploads/2019/02/image-3.png" alt="" class="wp-image-1063" width="384" height="261" /> &lt;/figure&gt;</p>
+
+<p>Statistically small but computationally big </p>
+
+<p>The above data is computationally big, take a simple example of a <g class="gr_ gr\_5 gr-alert gr\_gramm gr\_inline\_cards gr\_run\_anim Grammar only-ins doubleReplace replaceWithoutSep" id="5" data-gr-id="5">black</g> and white image of 10X10 pixel, all the combinations can yield combinations that might be more than the total number of atoms in the universe. </p>
+
+<p>Unless we make assumptions, it is very difficult to do computation with these big set of images. This above images data can be computationally very large but statistically very small. </p>
+
+<p><strong>Model based ML</strong> </p>
+
+<p>Instead of getting lost in the sea of algorithms/models/research papers, we should use model-based learning to use data and assumptions to derive ML algorithm. We should work mainly on defining our assumptions about the problem very clearly.  <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"></figure></p>
+
+<div class="wp-block-embed__wrapper">
+</div>
+<p>&lt;/figure&gt;</p>
+
+<p>Translate your assumptions into a model and that is the core of model-based learning. If our assumptions are sound/strong then we get much more information from the same amount of data. </p>
+
+<p>Can we develop a tool to do it automatically? Can this dream be true? <figure class="wp-block-image is-resized"></figure></p>
+
+<p><img loading="lazy" src="http://sciloo.com/wp-content/uploads/2019/02/image-4.png" alt="" class="wp-image-1064" width="288" height="235" /> &lt;/figure&gt;</p>
+
+<p><strong>User &amp; Movies</strong> </p>
+
+<p>Predict the question marks – whether a user like or dislike those movie for which he has not given a answer. 10ks of movies, 10Ms of users. <figure class="wp-block-image is-resized"></figure></p>
+
+<p><img loading="lazy" src="http://sciloo.com/wp-content/uploads/2019/02/image-2.png" alt="" class="wp-image-1062" width="433" height="331" /> &lt;/figure&gt; <figure class="wp-block-image is-resized"><img loading="lazy" src="http://sciloo.com/wp-content/uploads/2019/02/image-5-1024x507.png" alt="" class="wp-image-1065" width="618" height="306" /></figure></p>
+
+<p>Based on my like or dislike, ML is suggesting movies closer to green area that I can like for sure and closer to red area for movies that I may not like. </p>
+
+<p>It is learning my behavior and suggesting me titles based on the populations similar to me. </p>
+
+<p>Information (as per information theory by Shanon) is the surprise from data. Just like above movie ML algo suggest me movies closer to green area and I pick then there is a very less surprise in the data and suggestions don’t move big. </p>
+
+<p>But instead of liking the movie, if I dislike it, it is a big surprise for the algo and movies suggestions move big. </p>
+
+<p><strong>Quantifying uncertainty</strong> </p>
+
+<p>Uncertainty is an essential part of machine learning and it is a modern view of ML. <strong>Bayes theorem</strong> is at the core of it. </p>
+
+<p>BT: P(A/B) = [P(A) * P(B/A)]/P(B) </p>
+
+<p><strong>Bishop view on Healthcare</strong> <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"></figure></p>
+
+<div class="wp-block-embed__wrapper">
+</div>
+<p>&lt;/figure&gt;</p>
+
+<p>It is one of the biggest opportunities but complex also. Personalized healthcare can be a phenomenon suggesting you personalized course of treatment because as an individual each one of us is unique. It is like machine can learn our movies preferences. </p>
+
+<p> This can happen by analyzing the info from other millions of people.  </p>
+
+<p>  Cloud based tech + ML tech + Domain experts (from Hospitals like clinicians, doctors, radiologists, etc.) </p>
+
+<p><strong>Trust and privacy in the Data</strong> </p>
+
+<p>Data is encrypted so it is only accessible to those who have keys but It can become vulnerable while being processed. So Microsoft has taken care of processing data in <g class="gr_ gr\_7 gr-alert gr\_gramm gr\_inline\_cards gr\_run\_anim Grammar only-ins replaceWithoutSep" id="7" data-gr-id="7">secure</g> vault kind of infrastructure where data can be <g class="gr_ gr\_10 gr-alert gr\_spell gr\_inline\_cards gr\_run\_anim ContextualSpelling" id="10" data-gr-id="10">access</g> only to people who have keys. It is secure by hardware and software. </p>
+
+<p><strong>Factor Graph</strong><figure class="wp-block-image"></figure></p>
+
+<p><img src="http://sciloo.com/wp-content/uploads/2019/02/image-18.png" alt="" class="wp-image-1120" /> &lt;/figure&gt;</p>
+
+<p>The probability of getting a circular or triangular cookie depends upon which jar we choose. Round circles on the right sides are – one random variable for Jar, one random variable for Cookie</p>
+
+<p>These random variables are driven by their respective probability distribution functions (PDFs) denoted as shaded squares.</p>
+
+  </section>
+
+</article>
+
+      </div>
+    </div>
+<div class="py-5 border-top bg-white">
+  <div class="container">
+
+    <p class="h5 mb-3">Sciloo Learning Technologies</p>
+
+    <div class="row">
+
+      <div class="col-sm">
+        <ul class="list-unstyled">
+          <li>Sciloo Learning Technologies</li><li>
+              <a href="mailto:">
+                
+              </a>
+            </li></ul>
+      </div>
+
+
+      <div class="col-sm text-right">
+        <p>Sciloo Learning Technologies</p>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</body>
+
+</html>
