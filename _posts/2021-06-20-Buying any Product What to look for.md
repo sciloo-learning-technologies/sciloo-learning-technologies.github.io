@@ -55,8 +55,9 @@ I give you a example
 		will you buy a local headphone if you your use is very high quality music with comfort
 		or you will go with bose.
 			You should go with bose, reason is they have mastered the sound and comfort for the listener.
-		same for a mixer grinder will you buy a philips one or a local one.
-			I recommend philips because they are leaders in the field and do good amount of research on each product they make.
+		We can't buy a headphone because it is being sold with a label, label is just a logo which is easy to print but brands are difficult to build and takes lots of research and time.
+		Same goes for a mixer grinder will you buy a philips one or a local one.
+			I recommend philips because they are leaders in the field and do good amount of research on each product they make. There are lots of moving parts and electric components which can be lethal for your life if poorly made, will you risk your life for few 100 or 1000s Rs.
 					
 I request you to provide your experiences in buying a branded or unbranded product.
 		
